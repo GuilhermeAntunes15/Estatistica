@@ -11,3 +11,19 @@ C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bi
 C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\WinFormAnimation.dll
 C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\CircularProgressBar.xml
 C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\WinFormAnimation.xml
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\Dashboard.exe.config
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\Dashboard.exe
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\Dashboard.pdb
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\CircularProgressBar.dll
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\WinFormAnimation.dll
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\CircularProgressBar.xml
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\WinFormAnimation.xml
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.AssemblyReference.cache
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.Form1.resources
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.CopyComplete
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.exe
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.Login.resources

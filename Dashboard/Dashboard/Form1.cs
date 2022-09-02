@@ -55,6 +55,8 @@ namespace Dashboard
             pnlNav.Height = btnAnalytics.Height;
             pnlNav.Top = btnAnalytics.Top;
             btnAnalytics.BackColor = Color.FromArgb(46, 51, 73);
+
+            this.Close();
         }
 
         private void btnCalender_Click(object sender, EventArgs e)
