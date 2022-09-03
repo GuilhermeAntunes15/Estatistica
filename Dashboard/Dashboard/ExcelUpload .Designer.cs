@@ -1,6 +1,6 @@
 ﻿namespace Dashboard
 {
-    partial class Form1
+    partial class ExcelUpload
     {
         /// <summary>
         /// Required designer variable.
@@ -33,7 +33,7 @@
             this.pnlNav = new System.Windows.Forms.Panel();
             this.btnsettings = new System.Windows.Forms.Button();
             this.btnContactUs = new System.Windows.Forms.Button();
-            this.btnExcel = new System.Windows.Forms.Button();
+            this.btnCalender = new System.Windows.Forms.Button();
             this.btnAnalytics = new System.Windows.Forms.Button();
             this.btnDashbord = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -86,7 +86,7 @@
             this.panel1.Controls.Add(this.pnlNav);
             this.panel1.Controls.Add(this.btnsettings);
             this.panel1.Controls.Add(this.btnContactUs);
-            this.panel1.Controls.Add(this.btnExcel);
+            this.panel1.Controls.Add(this.btnCalender);
             this.panel1.Controls.Add(this.btnAnalytics);
             this.panel1.Controls.Add(this.btnDashbord);
             this.panel1.Controls.Add(this.panel2);
@@ -140,23 +140,23 @@
             this.btnContactUs.Click += new System.EventHandler(this.btnContactUs_Click);
             this.btnContactUs.Leave += new System.EventHandler(this.btnContactUs_Leave);
             // 
-            // btnExcel
+            // btnCalender
             // 
-            this.btnExcel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnExcel.FlatAppearance.BorderSize = 0;
-            this.btnExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExcel.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExcel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.btnExcel.Image = global::Dashboard.Properties.Resources.calendar;
-            this.btnExcel.Location = new System.Drawing.Point(0, 238);
-            this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(186, 42);
-            this.btnExcel.TabIndex = 1;
-            this.btnExcel.Text = "Excel";
-            this.btnExcel.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnExcel.UseVisualStyleBackColor = true;
-            this.btnExcel.Click += new System.EventHandler(this.btnCalender_Click);
-            this.btnExcel.Leave += new System.EventHandler(this.btnCalender_Leave);
+            this.btnCalender.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCalender.FlatAppearance.BorderSize = 0;
+            this.btnCalender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCalender.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.btnCalender.Image = global::Dashboard.Properties.Resources.calendar;
+            this.btnCalender.Location = new System.Drawing.Point(0, 238);
+            this.btnCalender.Name = "btnCalender";
+            this.btnCalender.Size = new System.Drawing.Size(186, 42);
+            this.btnCalender.TabIndex = 1;
+            this.btnCalender.Text = "Calender";
+            this.btnCalender.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnCalender.UseVisualStyleBackColor = true;
+            this.btnCalender.Click += new System.EventHandler(this.btnCalender_Click);
+            this.btnCalender.Leave += new System.EventHandler(this.btnCalender_Leave);
             // 
             // btnAnalytics
             // 
@@ -255,7 +255,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(79)))), ((int)(((byte)(99)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Myriad Arabic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.textBox1.Location = new System.Drawing.Point(563, 23);
             this.textBox1.Multiline = true;
@@ -291,7 +291,7 @@
             this.circularProgressBar1.AnimationFunction = ((WinFormAnimation.AnimationFunctions.Function)(resources.GetObject("circularProgressBar1.AnimationFunction")));
             this.circularProgressBar1.AnimationSpeed = 500;
             this.circularProgressBar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(64)))));
-            this.circularProgressBar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.circularProgressBar1.Font = new System.Drawing.Font("Myriad Arabic", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.circularProgressBar1.ForeColor = System.Drawing.Color.White;
             this.circularProgressBar1.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(64)))));
             this.circularProgressBar1.InnerMargin = 2;
@@ -604,7 +604,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnsettings;
         private System.Windows.Forms.Button btnContactUs;
-        private System.Windows.Forms.Button btnExcel;
+        private System.Windows.Forms.Button btnCalender;
         private System.Windows.Forms.Button btnAnalytics;
         private System.Windows.Forms.Panel pnlNav;
         private System.Windows.Forms.Button button1;

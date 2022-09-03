@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 namespace Dashboard
 {
-    public partial class Form1 : Form
+    public partial class ExcelUpload : Form
     {
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
@@ -27,7 +27,7 @@ namespace Dashboard
 
          );
 
-        public Form1()
+        public ExcelUpload()
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
@@ -55,17 +55,15 @@ namespace Dashboard
             pnlNav.Height = btnAnalytics.Height;
             pnlNav.Top = btnAnalytics.Top;
             btnAnalytics.BackColor = Color.FromArgb(46, 51, 73);
+
+            this.Close();
         }
 
         private void btnCalender_Click(object sender, EventArgs e)
         {
-            pnlNav.Height = btnExcel.Height;
-            pnlNav.Top = btnExcel.Top;
-            btnExcel.BackColor = Color.FromArgb(46, 51, 73);
-
-            ExcelUpload form = new ExcelUpload();
-            this.Hide();
-            form.Show();
+            pnlNav.Height = btnCalender.Height;
+            pnlNav.Top = btnCalender.Top;
+            btnCalender.BackColor = Color.FromArgb(46, 51, 73);
         }
 
         private void btnContactUs_Click(object sender, EventArgs e)
@@ -94,7 +92,7 @@ namespace Dashboard
 
         private void btnCalender_Leave(object sender, EventArgs e)
         {
-            btnExcel.BackColor = Color.FromArgb(24, 30, 54);
+            btnCalender.BackColor = Color.FromArgb(24, 30, 54);
         }
 
         private void btnContactUs_Leave(object sender, EventArgs e)

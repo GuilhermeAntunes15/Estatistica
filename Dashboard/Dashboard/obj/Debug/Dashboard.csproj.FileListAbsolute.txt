@@ -27,3 +27,4 @@ D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.Copy
 D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.exe
 D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
 D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.Login.resources
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.ExcelUpload.resources
