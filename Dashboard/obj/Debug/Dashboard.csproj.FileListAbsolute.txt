@@ -1,0 +1,50 @@
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\Dashboard.exe.config
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\Dashboard.exe
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\Dashboard.pdb
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.csprojResolveAssemblyReference.cache
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.Form1.resources
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.Cache
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.exe
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\CircularProgressBar.dll
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\WinFormAnimation.dll
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\CircularProgressBar.xml
+C:\Users\Faslam maX\Documents\visual studio 2015 projects\Dashboard\Dashboard\bin\Debug\WinFormAnimation.xml
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\Dashboard.exe.config
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\Dashboard.exe
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\Dashboard.pdb
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\CircularProgressBar.dll
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\WinFormAnimation.dll
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\CircularProgressBar.xml
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\bin\Debug\WinFormAnimation.xml
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.AssemblyReference.cache
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.Form1.resources
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.CopyComplete
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.exe
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.Login.resources
+D:\guian\Desktop\Estatistica\Dashboard\Dashboard\obj\Debug\Dashboard.ExcelUpload.resources
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.AssemblyReference.cache
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\bin\Debug\Dashboard.exe.config
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\bin\Debug\Dashboard.exe
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\bin\Debug\Dashboard.pdb
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\bin\Debug\CircularProgressBar.dll
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\bin\Debug\Excel.dll
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\bin\Debug\WinFormAnimation.dll
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\bin\Debug\CircularProgressBar.xml
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\bin\Debug\Excel.pdb
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\bin\Debug\WinFormAnimation.xml
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\obj\Debug\Dashboard.ExcelUpload.resources
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\obj\Debug\Dashboard.Form1.resources
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\obj\Debug\Dashboard.Login.resources
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.CopyComplete
+C:\Users\aluno_lab5\Desktop\Estatistica-main\Estatistica-main\Dashboard\Dashboard\obj\Debug\Dashboard.exe
