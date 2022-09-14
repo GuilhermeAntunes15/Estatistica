@@ -4,10 +4,12 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using Excel;
 
 namespace Dashboard
 {
@@ -41,9 +43,9 @@ namespace Dashboard
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
-            pnlNav.Height = btnDashbord.Height;
-            pnlNav.Top = btnDashbord.Top;
-            pnlNav.Left = btnDashbord.Left;
+            pnlNav.Height = btnExcel.Height;
+            pnlNav.Top = btnExcel.Top;
+            pnlNav.Left = btnExcel.Left;
             btnExcel.BackColor = Color.FromArgb(46, 51, 73);
 
             txtArquivo.Text = "No files selected";
@@ -139,9 +141,16 @@ namespace Dashboard
             }
         }
 
+        DataSet ds;
+
         private void btnUpload_Click(object sender, EventArgs e)
         {
-
+            FileStream fileStream = File.Open(openFileDialog1.FileName, FileMode.Open, FileAccess.Read);
+            IExcelDataReader reader = ExcelReaderFactory.CreateBinaryReader(fileStream);
+            reader.IsFirstRowAsColumnNames = true;
+            ds = reader.AsDataSet();
+            dgvDados.DataSource = ds.Tables[0];
         }
+
     }
 }

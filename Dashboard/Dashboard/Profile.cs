@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 namespace Dashboard
 {
-    public partial class Form1 : Form
+    public partial class Profile : Form
     {
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
@@ -27,14 +27,14 @@ namespace Dashboard
 
          );
 
-        public Form1()
+        public Profile()
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
-            pnlNav.Height = btnDashbord.Height;
-            pnlNav.Top = btnDashbord.Top;
-            pnlNav.Left = btnDashbord.Left;
-            btnDashbord.BackColor = Color.FromArgb(46, 51, 73);
+            pnlNav.Height = btnsettings.Height;
+            pnlNav.Top = btnsettings.Top;
+            pnlNav.Left = btnsettings.Left;
+            btnsettings.BackColor = Color.FromArgb(46, 51, 73);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -116,7 +116,7 @@ namespace Dashboard
             Application.Exit();
         }
 
-        private void pbUser_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             Profile form = new Profile();
             this.Hide();
