@@ -47,8 +47,9 @@
             this.txtArquivo = new System.Windows.Forms.TextBox();
             this.btnAbrir = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.dgvDados = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -255,6 +256,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(64)))));
+            this.panel6.Controls.Add(this.btnSalvar);
             this.panel6.Controls.Add(this.btnUpload);
             this.panel6.Controls.Add(this.txtArquivo);
             this.panel6.Controls.Add(this.btnAbrir);
@@ -269,7 +271,7 @@
             this.btnUpload.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnUpload.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpload.ForeColor = System.Drawing.Color.White;
-            this.btnUpload.Location = new System.Drawing.Point(247, 85);
+            this.btnUpload.Location = new System.Drawing.Point(201, 89);
             this.btnUpload.Name = "btnUpload";
             this.btnUpload.Size = new System.Drawing.Size(91, 26);
             this.btnUpload.TabIndex = 3;
@@ -309,6 +311,14 @@
             this.panel7.Size = new System.Drawing.Size(684, 331);
             this.panel7.TabIndex = 14;
             // 
+            // dgvDados
+            // 
+            this.dgvDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDados.Location = new System.Drawing.Point(14, 55);
+            this.dgvDados.Name = "dgvDados";
+            this.dgvDados.Size = new System.Drawing.Size(654, 259);
+            this.dgvDados.TabIndex = 2;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -320,13 +330,20 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Dados da Carga";
             // 
-            // dgvDados
+            // btnSalvar
             // 
-            this.dgvDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDados.Location = new System.Drawing.Point(14, 55);
-            this.dgvDados.Name = "dgvDados";
-            this.dgvDados.Size = new System.Drawing.Size(654, 259);
-            this.dgvDados.TabIndex = 2;
+            this.btnSalvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(3)))), ((int)(((byte)(85)))));
+            this.btnSalvar.Enabled = false;
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.ForeColor = System.Drawing.Color.White;
+            this.btnSalvar.Location = new System.Drawing.Point(360, 89);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(91, 26);
+            this.btnSalvar.TabIndex = 4;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // ExcelUpload
             // 
@@ -382,6 +399,7 @@
         private System.Windows.Forms.TextBox txtArquivo;
         private System.Windows.Forms.Button btnAbrir;
         private System.Windows.Forms.DataGridView dgvDados;
+        private System.Windows.Forms.Button btnSalvar;
     }
 }
 

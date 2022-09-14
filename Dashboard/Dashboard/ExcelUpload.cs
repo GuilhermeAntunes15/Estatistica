@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using Excel;
+using MySql.Data.MySqlClient;
 
 namespace Dashboard
 {
@@ -138,6 +139,7 @@ namespace Dashboard
             {
                 txtArquivo.Text = openFileDialog1.SafeFileName;
                 btnUpload.Enabled = true;
+                btnSalvar.Enabled = true;
             }
         }
 
@@ -152,5 +154,22 @@ namespace Dashboard
             dgvDados.DataSource = ds.Tables[0];
         }
 
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+            string constring = DbConfig.ConnectionString();
+
+            MySqlConnection con = new MySqlConnection(constring);
+
+            con.Open();
+
+            if(con.State == ConnectionState.Open)
+            {
+                MessageBox.Show("FOI");
+            }
+            else
+            {
+                MessageBox.Show("ERRO");
+            }
+        }
     }
 }
