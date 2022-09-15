@@ -53,10 +53,6 @@ namespace Dashboard
             btnUpload.Enabled = false;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnDashbord_Click(object sender, EventArgs e)
         {
@@ -147,6 +143,7 @@ namespace Dashboard
 
         private void btnUpload_Click(object sender, EventArgs e)
         {
+            dgvDados.ColumnCount = 0;
             FileStream fileStream = File.Open(openFileDialog1.FileName, FileMode.Open, FileAccess.Read);
             IExcelDataReader reader = ExcelReaderFactory.CreateBinaryReader(fileStream);
             reader.IsFirstRowAsColumnNames = true;
@@ -162,14 +159,39 @@ namespace Dashboard
 
             con.Open();
 
-            if(con.State == ConnectionState.Open)
+
+
+
+            int tamanhoLinhas = dgvDados.Rows.Count;
+            foreach (DataGridViewRow row in dgvDados.Rows)
             {
-                MessageBox.Show("FOI");
+                foreach (DataGridViewColumn col in dgvDados.Columns)
+                {
+                    if(row.Index == tamanhoLinhas-1)
+                    {
+                        continue;
+                    }
+                    // verificar o uso de aspas na hora de inserir 
+                    string val = dgvDados.Rows[row.Index].Cells[col.Index].Value.ToString();
+                    string insertQuery = "INSERT INTO colunas(valor) VALUES('" + val + "');";
+
+                    MySqlCommand command = new MySqlCommand(insertQuery, con);
+                    command.ExecuteNonQuery();
+                }
             }
-            else
-            {
-                MessageBox.Show("ERRO");
-            }
+            MessageBox.Show("Data Inserted");
+                
+          
+
+            con.Close();
+        }
+
+        private void ExcelUpload_Load(object sender, EventArgs e)
+        {
+            dgvDados.ColumnCount = 3;
+            dgvDados.Columns[0].Name = "Product ID";
+            dgvDados.Columns[1].Name = "Product Name";
+            dgvDados.Columns[2].Name = "Product Price";
         }
     }
 }
